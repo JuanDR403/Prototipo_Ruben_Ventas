@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 5px solid black;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo img{
+    height: 75px;
+    margin-right: 10px;
+}
+
+nav a {
+    font-weight: 750;
+    padding-right: 80px;
+}
+
+
+nav a:hover{
+    color: green;
+}
+
+
+section {
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 30%;
+    
+}
+
+#cafe{
+    border-right: 1px solid black;
+}
